@@ -15,13 +15,11 @@ npm run serve
 npm run build
 ```
 
+### Cypress
+
+To view cypress visit: npx cypress run
+
 ### Lints and fixes files
 ```
 npm run lint
-
-# Cypress
-```
-
-To access cypress, run npx cypress run
-
 
