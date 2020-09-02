@@ -1,7 +1,7 @@
 <template>
 <v-card>
     <v-container>
-        <v-img src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
+        <v-img :src="missionimage">
         </v-img>
         <div class="text-subtitle-1 font-weight-bold blue--text pt-2 pb-3">{{ missionname+'#'+flightnumber }}</div>
         <div class="text-subtitle-1 pb-2"><span class="font-weight-bold black--text">Mission ids:</span>
@@ -28,6 +28,7 @@ export default {
         launchyear: String,
         launchsuccess: Boolean,
         landingsuccess: Boolean,
+        missionimage: String,
     },
 
 };

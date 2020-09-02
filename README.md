@@ -18,7 +18,10 @@ npm run build
 ### Lints and fixes files
 ```
 npm run lint
+
+# Cypress
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+To access cypress, run npx cypress run
+
+

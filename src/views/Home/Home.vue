@@ -32,7 +32,7 @@
         <v-col cols="12" sm="9" md="10">
             <v-row>
                 <v-col cols="12" sm="6" md="3" class="pt-0" v-for="(spacexdata, i) in spacexdatalist" :key="i">
-                    <Card :missionid="spacexdata.mission_id" :missionname="spacexdata.mission_name" :flightnumber="spacexdata.flight_number" :launchyear="spacexdata.launch_year" :launchsuccess="spacexdata.launch_success" :landingsuccess="spacexdata.launch_landing" />
+                    <Card :missionid="spacexdata.mission_id" :missionimage="spacexdata.links.mission_patch" :missionname="spacexdata.mission_name" :flightnumber="spacexdata.flight_number" :launchyear="spacexdata.launch_year" :launchsuccess="spacexdata.launch_success" :landingsuccess="spacexdata.launch_landing" />
                 </v-col>
             </v-row>
         </v-col>
